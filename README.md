@@ -81,8 +81,6 @@ pip install firebase-admin pyfiglet pytest
 
 O programa tem de ser executado a partir da raiz do projeto, porque `ligacao_base_dados.py` procura o `chave.json` na pasta atual.
 
-> ⚠️ O `chave.json` dá acesso total à base de dados. Não o coloque num repositório público nem o partilhe. Se usar git, adicione-o ao `.gitignore`.
-
 ### Coleções no Firestore
 
 **`utilizadores`** (o ID de cada documento é o username)
